@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0 --base=/testpre/ --outDir=docs",
-    "build": "tsc && vite build --base=/testpre/",
-    "preview": "vite preview"
+    "dev": "vite --host 0.0.0.0 --base=/testpre/",
+    "build": "tsc && vite build --base=/testpre/ --outDir=docs",
+    "preview": "vite preview --port 5173 --host 0.0.0.0 --base=/testpre/ --outDir=docs"
   },
   "dependencies": {
     "preact": "^10.19.6"
